@@ -1,4 +1,26 @@
+# 环境变量与密钥
 .env
 .env.*
 !.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+*secret*
+*credential*
+credentials.json
+secrets.json
+
+# 依赖与构建产物
 node_modules/
+dist/
+build/
+
+# 系统与编辑器私有文件
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.tmp
+.idea/
+.vscode/
